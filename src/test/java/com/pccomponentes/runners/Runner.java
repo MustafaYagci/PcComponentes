@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/Features",
         glue ="com/pccomponentes/stepDefs",
-        dryRun = true,
-        tags = "@tag"
+        dryRun = false,
+        tags = "@searchBox"
 
 )
 public class Runner {
