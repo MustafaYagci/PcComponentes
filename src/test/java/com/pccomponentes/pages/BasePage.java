@@ -5,6 +5,7 @@ import com.pccomponentes.utilities.Reusabilities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
@@ -24,4 +25,7 @@ public class BasePage {
         List<WebElement> listOfItems=Driver.get().findElements(By.xpath("//h3/a[contains(@data-name,'\"items\"')]"));
         return listOfItems;
     }
+
+    @FindBy( xpath = "(//*[@class='u-visible@lg'])[2]")
+    public WebElement Mi_Cuenta;
 }

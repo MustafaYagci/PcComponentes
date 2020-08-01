@@ -3,40 +3,42 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
-        "name": "User Should be able to naviage to the page",
+        "start_timestamp": "2020-08-01T18:06:52.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4763875600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.pccomponentes.stepDefs.Hooks.BeforeMethod()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login Functionalities Positive",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2020-08-01T11:55:08.255Z",
-        "line": 14,
-        "name": "Searching \"MSI GE66 Raider 10SF-056XES\" in the search box",
-        "description": "",
-        "id": "search-functionalty;searching-\"\u003citems\u003e\"-in-the-search-box;;2",
+        "id": "login-functionality;login-functionalities-positive",
+        "after": [
+          {
+            "result": {
+              "duration": 700663900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.pccomponentes.stepDefs.Hooks.AfterClass()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4797765200,
+              "duration": 153590900,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user should navigate to page",
-            "match": {
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_navigate_to_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 242446000,
-              "status": "passed"
-            },
-            "line": 7,
+            "line": 14,
             "name": "user should be able to see \"PcComponentes.com | Tienda de Informática y Tecnología online\" as a page title",
             "match": {
               "arguments": [
@@ -47,237 +49,45 @@
               ],
               "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_see_as_a_page_title(java.lang.String)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3980347400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user should be able to type \"MSI GE66 Raider 10SF-056XES\" and search",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"MSI GE66 Raider 10SF-056XES\"",
-                  "offset": 28
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_type_and_search(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 730796900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user should be able to verify the items with the \"MSI GE66 Raider 10SF-056XES\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"MSI GE66 Raider 10SF-056XES\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_verify_the_items_with_the(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@searchBox"
-          }
-        ]
-      },
-      {
-        "line": 2,
-        "name": "User Should be able to naviage to the page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2020-08-01T11:55:18.073Z",
-        "line": 15,
-        "name": "Searching \"LG 49LJ594V\" in the search box",
-        "description": "",
-        "id": "search-functionalty;searching-\"\u003citems\u003e\"-in-the-search-box;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4146648500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user should navigate to page",
-            "match": {
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_navigate_to_page()"
-            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 13961000,
+              "duration": 711133200,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user should be able to see \"PcComponentes.com | Tienda de Informática y Tecnología online\" as a page title",
+            "line": 15,
+            "name": "user should be able click Mi cuenta button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"PcComponentes.com | Tienda de Informática y Tecnología online\"",
-                  "offset": 27
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_see_as_a_page_title(java.lang.String)"
+              "location": "com.pccomponentes.stepDefs.loginFunctionalityStepDefs.user_should_be_able_click_Mi_cuenta_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4747776000,
+              "duration": 4391778500,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user should be able to type \"LG 49LJ594V\" and search",
+            "line": 16,
+            "name": "user type valid email or password and click Iniciar session",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"LG 49LJ594V\"",
-                  "offset": 28
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_type_and_search(java.lang.String)"
+              "location": "com.pccomponentes.stepDefs.loginFunctionalityStepDefs.user_type_valid_email_or_password_and_click_Iniciar_session()"
             },
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 687088100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user should be able to verify the items with the \"LG 49LJ594V\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"LG 49LJ594V\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_verify_the_items_with_the(java.lang.String)"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@searchBox"
-          }
-        ]
-      },
-      {
-        "line": 2,
-        "name": "User Should be able to naviage to the page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2020-08-01T11:55:27.672Z",
-        "line": 16,
-        "name": "Searching \"Xiaomi Mi Airdots\" in the search box",
-        "description": "",
-        "id": "search-functionalty;searching-\"\u003citems\u003e\"-in-the-search-box;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4017695900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user should navigate to page",
-            "match": {
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_navigate_to_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 58841600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should be able to see \"PcComponentes.com | Tienda de Informática y Tecnología online\" as a page title",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"PcComponentes.com | Tienda de Informática y Tecnología online\"",
-                  "offset": 27
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_see_as_a_page_title(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5023613600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user should be able to type \"Xiaomi Mi Airdots\" and search",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Xiaomi Mi Airdots\"",
-                  "offset": 28
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_type_and_search(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 747739600,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user should be able to verify the items with the \"Xiaomi Mi Airdots\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Xiaomi Mi Airdots\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.pccomponentes.stepDefs.searchFunctionalitiesStepDefs.user_should_be_able_to_verify_the_items_with_the(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@searchBox"
+            "name": "@login"
           }
         ]
       }
     ],
-    "name": "Search Functionalty",
+    "name": "Login Functionality",
     "description": "",
-    "id": "search-functionalty",
+    "id": "login-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/searchFunctionalities.feature",
+    "uri": "file:src/test/resources/Features/loginFunctionalities.feature",
     "tags": []
   }
 ]

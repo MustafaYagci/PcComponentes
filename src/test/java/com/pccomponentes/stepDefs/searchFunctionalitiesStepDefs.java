@@ -14,10 +14,6 @@ import java.util.List;
 public class searchFunctionalitiesStepDefs {
     BasePage bP=new BasePage();
 
-    @Given("user should navigate to page")
-    public void user_should_navigate_to_page() {
-        Driver.get().get(ConfigurationReader.getProperty("qa_url"));
-    }
 
     @Given("user should be able to see {string} as a page title")
     public void user_should_be_able_to_see_as_a_page_title(String expected) {
