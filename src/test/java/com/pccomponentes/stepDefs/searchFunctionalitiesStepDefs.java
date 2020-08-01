@@ -17,8 +17,9 @@ public class searchFunctionalitiesStepDefs {
 
     @Given("user should be able to see {string} as a page title")
     public void user_should_be_able_to_see_as_a_page_title(String expected) {
+        Reusabilities.StaticWait(2);
        String actual = Reusabilities.pageTitle();
-        Assert.assertEquals(expected,actual);
+        Assert.assertTrue(actual.contains(expected));
     }
 
     @When("user should be able to type {string} and search")

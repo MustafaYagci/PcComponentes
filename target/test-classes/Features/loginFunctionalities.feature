@@ -9,6 +9,7 @@ Feature: Login Functionality
       When user type invalid email or password and click Iniciar session
       Then user should be able to get "El e-mail o la contraseña no son correctos." warning
 
+  @smoke
   @login
     Scenario: Login Functionalities Positive
       Given user should be able to see "PcComponentes.com | Tienda de Informática y Tecnología online" as a page title
