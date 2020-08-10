@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: Search Functionalty
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 89.786 s <<< FAILURE! - in Search Functionalty
+Searching "MSI GE66 Raider 10SF-056XES" in the search box(Search Functionalty)  Time elapsed: 51.269 s  <<< ERROR!
+java.lang.NullPointerException
+
+Searching "LG 49LJ594V" in the search box(Search Functionalty)  Time elapsed: 25.254 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J6C5QTC', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\musta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6545a0ea07ad2152a460e3389f3aa870
+*** Element info: {Using=xpath, value=//h3/a[contains(@data-name,'"items"')]}
+
+Searching "Xiaomi Mi Airdots" in the search box(Search Functionalty)  Time elapsed: 13.261 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J6C5QTC', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006187E3+2852835]
+	Ordinal0 [0x00505BB1+1727409]
+	Ordinal0 [0x003DE362+516962]
+	Ordinal0 [0x003D7D82+490882]
+	Ordinal0 [0x003D846B+492651]
+	Ordinal0 [0x003D93C5+496581]
+	Ordinal0 [0x003D4D64+478564]
+	Ordinal0 [0x003DF300+520960]
+	Ordinal0 [0x0038E489+189577]
+	Ordinal0 [0x0038D7FD+186365]
+	Ordinal0 [0x0038B70B+177931]
+	Ordinal0 [0x00372584+75140]
+	Ordinal0 [0x00373650+79440]
+	Ordinal0 [0x003735E9+79337]
+	Ordinal0 [0x0051AD5C+1813852]
+	GetHandleVerifier [0x0073C616+1075574]
+	GetHandleVerifier [0x0073C367+1074887]
+	GetHandleVerifier [0x00747497+1120247]
+	GetHandleVerifier [0x0073CC16+1077110]
+	Ordinal0 [0x00513206+1782278]
+	Ordinal0 [0x0051C3BB+1819579]
+	Ordinal0 [0x0051C523+1819939]
+	Ordinal0 [0x00532B45+1911621]
+	BaseThreadInitThunk [0x7671F989+25]
+	RtlGetAppContainerNamedObjectPath [0x77CF7084+228]
+	RtlGetAppContainerNamedObjectPath [0x77CF7054+180]
+
+
+Searching "Xiaomi Mi Airdots" in the search box(Search Functionalty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
