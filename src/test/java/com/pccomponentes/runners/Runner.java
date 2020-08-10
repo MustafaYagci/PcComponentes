@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features",
         glue ="com/pccomponentes/stepDefs",
         dryRun = false,
-        tags = "@category"
+        tags = "@smoke"
 
 )
 public class Runner {
